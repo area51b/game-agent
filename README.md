@@ -56,7 +56,7 @@ ollama pull gpt-oss:20b
 nohup ollama serve > ollama.log 2>&1 &
 
 # Test the model
-ollama run gpt-oss:20b "Hello, world!"
+ollama run gpt-oss:20b "Hello World"
 ```
 
 ## 🎮 Usage

@@ -141,15 +141,14 @@ curl -X POST http://localhost:11434/api/generate \
   -d '{"model": "gpt-oss:20b", "prompt": "Test prompt", "stream": false}'
 ```
 
-## 🎯 Hackathon Category: **Wildcard**
+## 🎯 Host Kahoot Quiz Live
 
-This project represents an unexpected application of gpt-oss models that OpenAI likely didn't anticipate. By combining:
-- Real-time competitive gaming
-- Educational content reasoning  
-- WebSocket communication
-- Time-critical decision making
+- Sample Kahoot Quiz: https://create.kahoot.it/details/3bca0766-d4ae-4677-9877-6210abda3c90
+- Host Settings (IMPORTANT): Enable "Show questions on devices" before starting
+![alt text](docs/kahoot_host_live.png)
 
-We've created a unique demonstration of AI reasoning capabilities in a fun, engaging, and competitive environment.
+- Compatibility: Agent handles both multiple choice (4 options) with single answer and true/false questions
+- Performance: Expect sub-second response times with 70%+ accuracy on general knowledge
 
 ## 🤝 Contributing
 
